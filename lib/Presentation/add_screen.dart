@@ -69,8 +69,8 @@ class AddScreen extends StatelessWidget {
           ),
           ElevatedButton(
               style: const ButtonStyle(
-                  backgroundColor: MaterialStatePropertyAll(Colors.black),
-                  foregroundColor: MaterialStatePropertyAll(Colors.pinkAccent)),
+                  backgroundColor: WidgetStatePropertyAll(Colors.black),
+                  foregroundColor: WidgetStatePropertyAll(Colors.pinkAccent)),
               onPressed: () {
                 final name = nameController.text.trim();
                 final age = ageController.text.trim();
